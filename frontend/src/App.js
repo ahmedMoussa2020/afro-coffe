@@ -1,13 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter, Link, Route, Routes } from "react-router-dom";
+import "./App.css";
+import HomeScreen from "./screens/HomeScreen";
+import NavBar from "./screens/NavBar";
+import ProductScreen from "./screens/ProductScreen";
 
 function App() {
-  return (<div>
-    <header>
-      <a href="/">Afro Bucks</a>
-    </header>
-    <main>Products</main>
-  </div>
+  return (
+    <BrowserRouter>
+      <div>
+        <div className="above-navbar">FREE SHIPPING ON ORDERS OF $35</div>
+        <header>
+          <Link to="/">Afro Bucks</Link>
+        </header>
+        <main>
+          <Routes>
+            <Route path="/product/:slug" element={<ProductScreen />} />
+            <Route path="/" element={<HomeScreen />} />
+          </Routes>
+        </main>
+      </div>
+    </BrowserRouter>
   );
 }
 
