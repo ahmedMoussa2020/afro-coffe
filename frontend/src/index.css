@@ -7,18 +7,18 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header{
-  background-color: #cbaa83;
+/* header{
+  background-color: #e1d4c4;
   padding: 1rem;
   position: sticky;
 
-}
+} */
 
-header a {
+/* header a {
   color: black;
   font-weight: bold;
   text-decoration: none;
-}
+} */
 
 .above-navbar{
   background: #242434;
@@ -29,7 +29,7 @@ header a {
   padding: 8px 8px;
 }
 
-
+ 
 
 /* this is for the products with is in the lading page */
 

@@ -9,10 +9,12 @@ function App() {
     <BrowserRouter>
       <div>
         <div className="above-navbar">FREE SHIPPING ON ORDERS OF $35</div>
-        <header>
+        {/* <header>
           <Link to="/">Afro Bucks</Link>
-        </header>
+        </header> */}
         <main>
+    <NavBar />
+
           <Routes>
             <Route path="/product/:slug" element={<ProductScreen />} />
             <Route path="/" element={<HomeScreen />} />
