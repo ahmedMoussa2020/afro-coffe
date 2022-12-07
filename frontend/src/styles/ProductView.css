@@ -1,0 +1,44 @@
+.top-div {
+  height: 114px;
+}
+
+.product-title {
+  height: 114px;
+  text-align: center;
+  color: #db9457;
+  font-weight: 500;
+  font-size: .9em;
+  letter-spacing: 2px;
+  line-height: 1.75em;
+  text-transform: uppercase;
+}
+
+.product-title h2 {
+  color: black;
+  font-size: 2.618em;
+  margin: 1.4em 0 0.4em;
+  line-height: 1.2em;
+  margin-top: 12px;
+  font-size: 35px;
+  font-style: italic;
+}
+
+.divide-block {
+  background-color: #db9457;
+  height: 40px;
+  width: 2px;
+  margin-top: 14px;
+  margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.product-title p{
+  color: #3a3a3b;
+  text-align: center;
+
+}
+
+.space-bottom{
+  margin-bottom: 24px;
+}

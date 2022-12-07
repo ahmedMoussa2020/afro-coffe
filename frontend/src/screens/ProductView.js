@@ -1,17 +1,21 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import data from "../data";
-import BannerScreen from "./BannerScreen";
-import NavBar from "./NavBar";
-import ProductView from "./ProductView";
+import styles from "../styles/ProductView.css";
 
-const HomeScreen = () => {
+function ProductView() {
   return (
     <div>
-      <BannerScreen />
-      <ProductView />
+      <div className="top-div"></div>
+      <div className="product-title">
+        <span>SPOTLIGHT</span>
+        <h2>Now Roasting</h2>
+        <div className="divide-block"></div>
+        <p>Featuring a bright spectrum of flavors and essences</p>
+        
+      </div>
 
-      {/* <h1>Featured Products</h1>
+      {/* <h1></h1> */}
+      <br />
       <div className="products">
         {data.products.map((product) => (
           <div className="product" key={product.slug}>
@@ -30,9 +34,8 @@ const HomeScreen = () => {
             </div>
           </div>
         ))}
-      </div> */}
+      </div>
     </div>
   );
-};
-
-export default HomeScreen;
+}
+export default ProductView;

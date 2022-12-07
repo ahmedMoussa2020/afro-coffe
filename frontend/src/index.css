@@ -20,7 +20,7 @@ body {
   text-decoration: none;
 } */
 
-.above-navbar{
+.above-navbar {
   background: #242434;
   /* text-align: center; */
   color: white;
@@ -29,7 +29,7 @@ body {
   padding: 8px 8px;
 }
 
- 
+
 
 /* this is for the products with is in the lading page */
 
@@ -38,36 +38,38 @@ body {
 } */
 
 
-h1{
+h1 {
   padding: 1rem;
 }
 
-.products{
+.products {
   display: flex;
   border-radius: 10px;
   flex-wrap: wrap;
   justify-content: center;
+  /* height: 24px; */
+  margin: 50px;
 }
 
-.product{
+.product {
   border: 1px rgb(109, 53, 13) solid;
   border-radius: 10px;
   margin: 1rem;
 
-  
+
 }
 
-.product img{
+.product img {
   width: 100%;
   max-width: 300px;
   border-radius: 10px;
 
 }
 
-.product-info{
+.product-info {
   padding: 1rem;
 }
 
-.product-info strong{
+.product-info strong {
   color: green;
 }
