@@ -3,6 +3,7 @@ import "./App.css";
 import HomeScreen from "./screens/HomeScreen";
 import NavBar from "./screens/NavBar";
 import ProductScreen from "./screens/ProductScreen";
+import ProductView from "./screens/ProductView";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
 
           <Routes>
             <Route path="/product/:slug" element={<ProductScreen />} />
+            <Route path="/productview/" element={<ProductView />} />
             <Route path="/" element={<HomeScreen />} />
           </Routes>
         </main>

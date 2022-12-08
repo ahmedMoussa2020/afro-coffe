@@ -1,15 +1,17 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import data from "../data";
 import BannerScreen from "./BannerScreen";
-import NavBar from "./NavBar";
+import ProductOne from "./ProductOne";
 import ProductView from "./ProductView";
+import SpotlightScreen from "./SpotlightScreen";
 
 const HomeScreen = () => {
   return (
     <div>
       <BannerScreen />
-      <ProductView />
+      <SpotlightScreen />
+      <ProductOne />
+      {/* <ProductView /> */}
+
 
       {/* <h1>Featured Products</h1>
       <div className="products">

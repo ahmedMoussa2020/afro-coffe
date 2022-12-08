@@ -43,7 +43,7 @@ function ProductView() {
 
   return (
     <div>
-      <div className="top-div"></div>
+      {/* <div className="top-div"></div>
       <div className="product-title">
         <span>SPOTLIGHT</span>
         <h2>Now Roasting</h2>
@@ -51,8 +51,9 @@ function ProductView() {
         <p>Featuring a bright spectrum of flavors and essences</p>
       </div>
 
-      {/* <h1></h1> */}
-      <br />
+      <h1></h1>
+      <br /> */}
+      
       <div className="products">
         {loading ? (
           <div>Loading...</div>

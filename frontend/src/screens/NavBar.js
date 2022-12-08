@@ -11,13 +11,16 @@ function NavBar() {
       <div className="item">
         <ul className="list">
           <Link to="/" style={{ textDecoration: "none" }}>
-            <li className="listItem">Homepage</li>
+            <li className="listItem">Home</li>
           </Link>
 
+          <Link to="/productview" style={{ textDecoration: "none" }}>
           <li className="listItem">Products</li>
-          <li className="listItem">Menu</li>
-          <li className="listItem">Events</li>
-          <li className="listItem">Blog</li>
+          </Link>
+
+          {/* <li className="listItem">Menu</li> */}
+          {/* <li className="listItem">Events</li> */}
+          <li className="listItem">About Us</li>
           <li className="listItem">Contact</li>
         </ul>
       </div>
