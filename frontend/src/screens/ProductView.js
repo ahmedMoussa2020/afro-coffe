@@ -49,10 +49,10 @@ function ProductView() {
         <h2>Now Roasting</h2>
         <div className="divide-block"></div>
         <p>Featuring a bright spectrum of flavors and essences</p>
-      </div>
+      </div> */}
 
-      <h1></h1>
-      <br /> */}
+      <h1>Feature Products</h1>
+      {/* <br /> */}
       
       <div className="products">
         {loading ? (
